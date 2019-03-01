@@ -1,0 +1,10 @@
+int main(void)
+{
+    wiringPiSetup();
+    pinMode(0, OUTPUT);
+    for (;;)
+    {
+      digitalWrite(0, HIGH);
+    }
+ return 0;
+}
